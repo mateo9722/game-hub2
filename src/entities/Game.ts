@@ -2,7 +2,7 @@ import { Platform } from "../hooks/useGames";
 import { Publisher } from "./publisher";
 import { Genre } from "./useGenres";
 
-export interface Game {
+export default interface Game {
   id: number;
   name: string;
   slug: string;
