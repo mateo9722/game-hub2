@@ -1,5 +1,5 @@
 import { Platform } from "../hooks/useGames";
-import { Publisher } from "./publisher";
+import { Publisher } from "./Publisher";
 import { Genre } from "./useGenres";
 
 export default interface Game {
